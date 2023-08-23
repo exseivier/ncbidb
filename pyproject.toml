@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncbidb"
+version = "0.0.1"
+description = "NCBI proteins, genes and genomes database manager"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+keywords = ["NCBI", "genes", "genomes", "data base", "proteins"]
+
+authors = [
+	{email = "buitrejma@gmail.com"},
+	{name = "Javier Montalvo-Arredondo"}
+	]
+
+maintainers = [
+	{name = "Javier Montalvo-Arredondo", email = "buitrejma@gmail.com"}
+	]
+
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Programming Language :: Python",
+	"Programming Language :: C/C++"
+	]
+
+dependencies = [
+	"pandas >= 2",
+	"json",
+	"click >= 8.0"
+	]
+
+[project.urls]
+
+repository = "https://github.com/exseivier/ncbidb"
+
+[project.scripts]
+ncbidb = "ncbidb:main.ncbidbrun"
+
+[tool.setuptools]
+packages = ["ncbidb", "ncbidb.pymods"]
+py-modules = ["ncbidb.main", "ncbidb.pymods.jsonload"]

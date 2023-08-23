@@ -1,0 +1,3 @@
+pandas>=2
+json
+click>=8.0

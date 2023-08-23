@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ncbidb
+Version: 0.0.1
+Summary: NCBI proteins, genes and genomes database manager
+Author: Javier Montalvo-Arredondo
+Author-email: buitrejma@gmail.com
+Maintainer-email: Javier Montalvo-Arredondo <buitrejma@gmail.com>
+License: This is my license.
+        Yeah!
+        
+Project-URL: repository, https://github.com/exseivier/ncbidb
+Keywords: NCBI,genes,genomes,data base,proteins
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C/C++
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+## NCBI-DB: A protein, genes and genomes databse manager
+---
+Command line interface with options to manage NCBI dtabases of proteins, genes and genomes.

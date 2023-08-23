@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ncbidb/__init__.py
+ncbidb/main.py
+ncbidb.egg-info/PKG-INFO
+ncbidb.egg-info/SOURCES.txt
+ncbidb.egg-info/dependency_links.txt
+ncbidb.egg-info/entry_points.txt
+ncbidb.egg-info/requires.txt
+ncbidb.egg-info/top_level.txt
+ncbidb/pymods/__init__.py
+ncbidb/pymods/jsonload.py
